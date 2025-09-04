@@ -1,0 +1,103 @@
+body{
+    display: flex;
+    flex-direction: column;
+     margin: 0;              
+    height: 100vh; 
+    align-items: center;
+    justify-content: center;
+    
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 690px;
+    height: 400px;
+    
+  
+    
+
+}
+.sedan{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: hsl(31, 77%, 52%);
+    padding: 30px;
+    padding-bottom: 20px;
+}
+.suv{
+     display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+background-color: hsl(184, 100%, 22%);
+padding: 30px;
+padding-bottom: 20px;
+}
+.luxury{
+     display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: hsl(179, 100%, 13%);
+    padding: 30px;
+    padding-bottom: 20px;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+}
+.heading{
+    font-size: 25px;
+    color: white;
+    font-weight: 700;
+    font-family: 'Big Shoulders Display';
+}
+.description{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca';
+    font-size: 12px;
+    text-align:left;
+    line-height: 1.5;
+}
+.learn-more{
+    font-size: 12px;
+    background-color: white;
+    
+    margin-right: 20px;
+    padding: 10px ; 
+    border: none;
+    border-radius: 25px;
+    font-weight: 400;
+    cursor: pointer;
+    font-family: 'Lexend Deca';
+    width: 110px;
+    margin-top: 40px;
+}
+.luxury .learn-more {
+    color: hsl(179, 100%, 13%);
+}
+.suv.learn-more {
+    color:hsl(184, 100%, 22%);
+}
+.sedan .learn-more {
+    color: hsl(31, 77%, 52%);
+}
+
+.luxury .learn-more:hover {
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+    border: 3px solid hsl(0, 0%, 95%);
+}
+.suv .learn-more:hover {
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+    border: 3px solid hsl(0, 0%, 95%);
+}
+.sedan .learn-more:hover {
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+    border: 3px solid hsl(0, 0%, 95%);
+}
+.attribution{
+    padding-top: 20px;
+    font-family:Arial, Helvetica, sans-serif ;
+}
